@@ -1,0 +1,100 @@
+.article_concierto{
+    margin-top: 50px;
+    
+}
+
+#icons{
+        
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+    .bi-twitter{
+        font-size: 100px;
+        margin-right:  10px;
+        color: $BlackColor;
+    }
+    
+    .bi-whatsapp{
+        font-size: 100px;
+        margin-right:  10px;
+        color: $BlackColor;
+    }
+    
+    .bi-instagram{
+        font-size: 100px; 
+        margin-right:  10px;
+        color: $BlackColor;
+    }
+
+    .bi-twitter:hover{
+        color: $BlueColor;
+    }
+    
+    .bi-whatsapp:hover{
+        color: $GreenColor;
+    }
+    
+    .bi-instagram:hover{
+        color: $RedColor;
+    }
+
+}
+.Text_Ubicación{
+    text-align: center;
+}
+
+.Ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and ( max-width:480px){
+
+    #icons{
+        
+        display: flex;
+        width: 100%;
+        position: relative;
+        justify-content:center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+        
+        .bi-twitter{
+            font-size: 20px;
+            margin-right:  10px;
+            color: $BlackColor;
+        }
+        
+        .bi-whatsapp{
+            font-size: 20px;
+            margin-right:  10px;
+            color: $BlackColor;
+        }
+        
+        .bi-instagram{
+            font-size: 20px; 
+            margin-right:  10px;
+            color: $BlackColor;
+        }
+    
+        .bi-twitter:hover{
+            color: $BlueColor;
+        }
+        
+        .bi-whatsapp:hover{
+            color: $GreenColor;
+        }
+        
+        .bi-instagram:hover{
+            color: $RedColor;
+        }
+        
+    }
+
+}

@@ -1,0 +1,126 @@
+.Title{
+    background-color: black;
+    border: 10px;
+    border-style: double;
+    border-color: orange;
+    position: sticky;
+
+}
+
+.Title_Marcas{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    }
+
+.Parrafo{
+    background-color: black;
+    border: 5px;
+    border-style: double;
+    border-color: orange;
+    position: sticky;
+
+}
+
+.Parrafo_marcas{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position:relative;
+    }
+
+
+img:hover {
+    transform: scale(1.1);
+  }
+
+.card{
+    box-shadow: 5px 5px 5px $BlackColor;
+    
+      
+}
+.card:hover{
+
+    box-shadow: 10px 10px 5px $BlackColor;
+    transform: scale(1.1);
+    transition-duration: .5s; 
+}
+
+@mixin CardsGral {
+    color: $BlueColor;
+    size: 25px;
+    text-align: justify;
+    text-shadow: 2px;
+    text-indent: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+        
+}
+
+
+
+.Card1{
+    @include CardsGral();
+    color: $BlueColor;
+}
+
+.Card2{
+    @include CardsGral();
+    color: $GreenColor;
+}
+
+.Card3{
+    @include CardsGral();
+    color: $RedColor;
+}
+
+.Card4{
+    @include CardsGral();
+    color: gray;
+}
+
+.Card5{
+    @include CardsGral();
+    color: rgb(153, 9, 248);
+}
+
+
+@media only screen and ( max-width:480px){
+
+    .Title{
+        background-color: black;
+        border: 5px;
+        border-style: double;
+        border-color: orange;
+        position: sticky;
+    
+    }
+    
+    .Title_Marcas{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        position:relative;
+        }
+    
+    .Parrafo{
+        background-color: black;
+        border: 3px;
+        border-style: double;
+        border-color: orange;
+        position: sticky;
+    
+    }
+    
+    .Parrafo_marcas{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        position:relative;
+        }
+
+}
